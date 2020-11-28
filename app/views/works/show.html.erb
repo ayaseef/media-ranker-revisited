@@ -25,8 +25,7 @@
       <tr>
         <td><%= link_to vote.user.username, user_path(vote.user) %></td>
         <td><%= render_date vote.created_at %></td>
-      </tr> # refactored from ul to /tr
+      </li>
     <% end %>
-  </tbody> # refactored from ul to tbody
+  </ul>
 </section>
-
