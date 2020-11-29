@@ -20,12 +20,13 @@
         <th>Date</th>
       </tr>
     </thead>
-    <tbody>
-    <% @votes.each do |vote| %>
-      <tr>
-        <td><%= link_to vote.user.username, user_path(vote.user) %></td>
-        <td><%= render_date vote.created_at %></td>
-      </li>
-    <% end %>
-  </ul>
+      <tbody>
+      <% @votes.each do |vote| %>
+        <tr>
+          <td><%= link_to vote.user.username, user_path(vote.user) %></td>
+          <td><%= render_date vote.created_at %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 </section>
