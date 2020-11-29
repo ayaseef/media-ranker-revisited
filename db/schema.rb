@@ -22,7 +22,6 @@ ActiveRecord::Schema.define(version: 2020_11_29_050606) do
     t.integer "uid"
     t.string "provider"
     t.string "email"
-    t.string "name"
   end
 
   create_table "votes", force: :cascade do |t|
