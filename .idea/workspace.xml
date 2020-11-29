@@ -32,7 +32,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59a7e0e9-1dcd-492d-afcd-3dc5129016b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/works/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/works/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20201129050606_add_uid_and_provider_to_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20201129004058_add_uid_and_provider_to_users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +196,7 @@
       <updated>1606520433175</updated>
       <workItem from="1606520434346" duration="1205000" />
       <workItem from="1606597478108" duration="3666000" />
-      <workItem from="1606606689034" duration="5333000" />
+      <workItem from="1606606689034" duration="5701000" />
     </task>
     <servers />
   </component>
