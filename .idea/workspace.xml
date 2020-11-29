@@ -32,24 +32,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59a7e0e9-1dcd-492d-afcd-3dc5129016b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/migrate/20201129004058_add_uid_and_provider_to_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/media-ranker-revisited.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/media-ranker-revisited.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/.target.mk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/.deps/Release/.node.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/.deps/Release/fse.node.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/.deps/Release/obj.target/fse/fsevents.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/.node" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/fse.node" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/binding.Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/config.gypi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/fse.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/fse.target.mk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/gyp-mac-tool" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/gyp-mac-tool" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +200,7 @@
       <updated>1606520433175</updated>
       <workItem from="1606520434346" duration="1205000" />
       <workItem from="1606597478108" duration="3666000" />
-      <workItem from="1606606689034" duration="1461000" />
+      <workItem from="1606606689034" duration="3602000" />
     </task>
     <servers />
   </component>
