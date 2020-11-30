@@ -2,17 +2,24 @@ class UsersController < ApplicationController
   skip_before_action :find_user, only: [:create]
 
   def index
+    if @login_user.nil?
+      flash[:result_text] = "You must log in to do that"
+      return redirect_to root_path
+    end
     @users = User.all
   end
 
   def show
+    if @login_user.nil?
+      flash[:result_text] = "You must log in to do that"
+      return redirect_to root_path
+    end
     @user = User.find_by(id: params[:id])
     render_404 unless @user
   end
 
   def create
     auth_hash = request.env["omniauth.auth"]
-
     user = User.find_by(uid: auth_hash[:uid], provider: "github")
     if user
       # User was found in the database
@@ -45,9 +52,12 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    session[:user_id] = nil
-    flash[:status] = :success
-    flash[:result_text] = 'Successfully logged out.'
+    if session[:user_id].nil?
+      flash[:warning] = "You were not logged in!"
+    else
+      session[:user_id] = nil
+      flash[:success] = "Successfully logged out!"
+    end
     redirect_to root_path
   end
 end

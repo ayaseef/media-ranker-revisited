@@ -20,9 +20,7 @@ describe WorksController do
     end
 
     it "succeeds with no media" do
-      Work.all do |work|
-        work.destroy
-      end
+      Work.all(&:destroy)
 
       get root_path
 
@@ -41,9 +39,7 @@ describe WorksController do
     end
 
     it "succeeds when there are no works" do
-      Work.all do |work|
-        work.destroy
-      end
+      Work.all(&:destroy)
 
       get works_path
 
