@@ -32,11 +32,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59a7e0e9-1dcd-492d-afcd-3dc5129016b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/works_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/works_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/works_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/works_controller.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +193,7 @@
       <updated>1606520433175</updated>
       <workItem from="1606520434346" duration="1205000" />
       <workItem from="1606597478108" duration="3666000" />
-      <workItem from="1606606689034" duration="7646000" />
+      <workItem from="1606606689034" duration="7926000" />
     </task>
     <servers />
   </component>
@@ -220,9 +216,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="745" y="139" width="670" height="676" key="search.everywhere.popup" timestamp="1606738960053">
+    <state x="745" y="139" width="670" height="676" key="search.everywhere.popup" timestamp="1606739348292">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="745" y="139" width="670" height="676" key="search.everywhere.popup/0.25.1440.790@0.25.1440.790" timestamp="1606738960053" />
+    <state x="745" y="139" width="670" height="676" key="search.everywhere.popup/0.25.1440.790@0.25.1440.790" timestamp="1606739348292" />
   </component>
 </project>

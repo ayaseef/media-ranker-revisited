@@ -2,7 +2,7 @@ class WorksController < ApplicationController
   # We should always be able to tell what category
   # of work we're dealing with
   before_action :category_from_work, except: [:root, :index, :new, :create]
-  skip_before_action :find_user, only: [:root]
+  before_action :must_own_work, only: [:edit, :update, :destroy]
 
   def root
     @albums = Work.best_albums
@@ -13,6 +13,10 @@ class WorksController < ApplicationController
 
   def index
     @works_by_category = Work.to_category_hash
+    if @login_user.nil?
+      flash[:result_text] = "You must log in to do that"
+      return redirect_to root_path
+    end
   end
 
   def new
@@ -21,6 +25,7 @@ class WorksController < ApplicationController
 
   def create
     @work = Work.new(media_params)
+    @work.user = @login_user
     @media_category = @work.category
     if @work.save
       flash[:status] = :success
@@ -36,9 +41,10 @@ class WorksController < ApplicationController
 
   def show
     @votes = @work.votes.order(created_at: :desc)
-  end
-
-  def edit
+    if @login_user.nil?
+      flash[:result_text] = "You must log in to do that"
+      return redirect_to root_path
+    end
   end
 
   def update
@@ -91,5 +97,18 @@ class WorksController < ApplicationController
     @work = Work.find_by(id: params[:id])
     return render_404 unless @work
     @media_category = @work.category.downcase.pluralize
+  end
+
+  def must_own_work
+    find_user
+    @work = Work.find_by(id: params[:id])
+
+    if @work.nil?
+      flash[:result_text] = "The work cannot be found"
+      redirect_to works_path
+    elsif @login_user.nil? || @login_user != @work.user
+      flash[:result_text] = "You do not have permission to access this page"
+      redirect_to work_path
+    end
   end
 end
