@@ -1,8 +1,9 @@
 class WorksController < ApplicationController
   # We should always be able to tell what category
   # of work we're dealing with
+  skip_before_action :find_user, only: [:root]
   before_action :category_from_work, except: [:root, :index, :new, :create]
-  before_action :must_own_work, only: [:edit, :update, :destroy]
+  before_action :must_own_work, only: [:update, :destroy]
 
   def root
     @albums = Work.best_albums

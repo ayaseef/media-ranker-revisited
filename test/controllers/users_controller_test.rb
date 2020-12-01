@@ -43,7 +43,7 @@ describe UsersController do
   end
 
   #Tests written for Oauth.
-  describe "auth_callback or create" do
+  describe "auth_callback" do
     it "logs in an existing user and redirects to the root path" do
       user = users(:dan)
 

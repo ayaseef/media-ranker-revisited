@@ -33,7 +33,13 @@
   <component name="ChangeListManager">
     <list default="true" id="59a7e0e9-1dcd-492d-afcd-3dc5129016b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/works_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/works_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/works_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/works_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/vote_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/vote_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/work_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/work_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +48,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1ktWahvTDYNC3OejTrlAGSmUUTH" />
   <component name="ProjectLevelVcsManager">
@@ -64,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: media-ranker-revisited">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.users_controller_test">
     <configuration default="true" type="RackRunConfigurationType" factoryName="Rack">
       <RACK_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
@@ -182,6 +195,72 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="users_controller_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="media-ranker-revisited" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/users_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="works_controller_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="media-ranker-revisited" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/works_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.users_controller_test" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.works_controller_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
@@ -194,7 +273,7 @@
       <updated>1606520433175</updated>
       <workItem from="1606520434346" duration="1205000" />
       <workItem from="1606597478108" duration="3666000" />
-      <workItem from="1606606689034" duration="12550000" />
+      <workItem from="1606606689034" duration="17447000" />
     </task>
     <servers />
   </component>
@@ -217,9 +296,75 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="745" y="139" width="670" height="676" key="search.everywhere.popup" timestamp="1606742101426">
+    <state width="1398" height="145" key="GridCell.Tab.0.bottom" timestamp="1606858887776">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="745" y="139" width="670" height="676" key="search.everywhere.popup/0.25.1440.790@0.25.1440.790" timestamp="1606742101426" />
+    <state width="1398" height="145" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1606858887776" />
+    <state width="1398" height="145" key="GridCell.Tab.0.center" timestamp="1606858887775">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="145" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1606858887775" />
+    <state width="1398" height="145" key="GridCell.Tab.0.left" timestamp="1606858887774">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="145" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1606858887774" />
+    <state width="1398" height="145" key="GridCell.Tab.0.right" timestamp="1606858887775">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="145" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1606858887775" />
+    <state width="1398" height="145" key="GridCell.Tab.1.bottom" timestamp="1606858887777">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="145" key="GridCell.Tab.1.bottom/0.25.1440.790@0.25.1440.790" timestamp="1606858887777" />
+    <state width="1398" height="145" key="GridCell.Tab.1.center" timestamp="1606858887776">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="145" key="GridCell.Tab.1.center/0.25.1440.790@0.25.1440.790" timestamp="1606858887776" />
+    <state width="1398" height="145" key="GridCell.Tab.1.left" timestamp="1606858887776">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="145" key="GridCell.Tab.1.left/0.25.1440.790@0.25.1440.790" timestamp="1606858887776" />
+    <state width="1398" height="145" key="GridCell.Tab.1.right" timestamp="1606858887776">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="145" key="GridCell.Tab.1.right/0.25.1440.790@0.25.1440.790" timestamp="1606858887776" />
+    <state x="745" y="139" width="670" height="676" key="search.everywhere.popup" timestamp="1606824293184">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="745" y="139" width="670" height="676" key="search.everywhere.popup/0.25.1440.790@0.25.1440.790" timestamp="1606824293184" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/users_controller.rb</url>
+          <line>21</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/users_controller.rb</url>
+          <line>12</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/application_controller.rb</url>
+          <line>12</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/media_ranker_revisited@works_controller_test.rcov" NAME="works_controller_test Coverage Results" MODIFIED="1606858636502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="media-ranker-revisited" />
+    <SUITE FILE_PATH="coverage/media_ranker_revisited@users_controller_test.rcov" NAME="users_controller_test Coverage Results" MODIFIED="1606858678086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="media-ranker-revisited" />
   </component>
 </project>
