@@ -1,7 +1,7 @@
 class WorksController < ApplicationController
   # We should always be able to tell what category
   # of work we're dealing with
-  skip_before_action :find_user, only: [:root]
+  skip_before_action :find_user, only: [:root, :index]
   before_action :category_from_work, except: [:root, :index, :new, :create]
   before_action :must_own_work, only: [:update, :destroy]
 

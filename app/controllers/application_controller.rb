@@ -15,7 +15,7 @@ class ApplicationController < ActionController::Base
     else
       flash[:status] = :failure
       flash[:result_text] = 'You must log in to do that'
-      redirect_to root_path
+      # redirect_to root_path
     end
   end
 end
